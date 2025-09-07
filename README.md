@@ -1,69 +1,57 @@
-# React + TypeScript + Vite
+# 🌟 Modern Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stunning, responsive portfolio website built with React, TypeScript, and Tailwind CSS, featuring an animated Aurora background and modern iOS-inspired design elements.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Animated Aurora Background**: Custom WebGL-powered aurora effect using OGL library
+- **Modern iOS Design**: Apple-inspired typography and smooth animations
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Single-Page Application**: Smooth scrolling navigation between sections
+- **Interactive Project Cards**: Showcase your work with elegant project cards
+- **Glassmorphic UI**: Modern glassmorphic design with backdrop blur effects
+- **TypeScript**: Fully typed for better development experience
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend**: React 19, TypeScript, Tailwind CSS
+- **Animation**: Custom WebGL Aurora Background
+- **Styling**: Tailwind CSS with custom Apple-style fonts
+- **Build Tool**: Vite
+- **Deployment**: Ready for Vercel, Netlify, or any static hosting
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🎨 Design Highlights
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **Aurora Background**: Dynamic, animated background with customizable colors
+- **Floating Navigation**: Glassmorphic navigation bar with smooth scroll detection
+- **Project Showcase**: Interactive project cards with hover effects
+- **Typography**: SF Pro Display/Text fonts for authentic Apple aesthetic
+- **Smooth Animations**: CSS transitions and hover effects throughout
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ��️ Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/yourusername/portfolio-website.git
+cd portfolio-website
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+2. Install dependencies
+```bash
+npm install
 ```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## 📁 Project Structure
