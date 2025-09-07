@@ -1,6 +1,9 @@
-# 🌟 Modern Portfolio Website
+# 🌟 My Portfolio Website
 
 A stunning, responsive portfolio website built with React, TypeScript, and Tailwind CSS, featuring an animated Aurora background and modern iOS-inspired design elements.
+
+<img width="1895" height="917" alt="image" src="https://github.com/user-attachments/assets/8ebd5544-e729-4b36-9d1a-b951e518de58" />
+
 
 ## ✨ Features
 
