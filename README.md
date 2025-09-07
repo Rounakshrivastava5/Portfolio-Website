@@ -2,7 +2,8 @@
 
 A stunning, responsive portfolio website built with React, TypeScript, and Tailwind CSS, featuring an animated Aurora background and modern iOS-inspired design elements.
 
-<img width="1893" height="913" alt="image" src="https://github.com/user-attachments/assets/fb1ff51e-3248-423a-a44e-8c45963465e3" />
+<img width="1889" height="917" alt="image" src="https://github.com/user-attachments/assets/cb60a40e-1ce4-46ec-992b-85d328701e72" />
+
 
 
 
