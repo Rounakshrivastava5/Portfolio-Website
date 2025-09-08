@@ -36,7 +36,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white w-full">
       {/* Floating Navigation */}
       <nav className="fixed top-8 left-1/2 transform -translate-x-1/2 z-50">
         <div className="bg-black/20 backdrop-blur-xl rounded-2xl px-6 py-3 border border-white/10 shadow-2xl shadow-black/20">
@@ -114,20 +114,20 @@ export default function App() {
       </nav>
 
       {/* Main Content */}
-      <main>
-        <section id="home">
+      <main className="w-full flex-1">
+        <section id="home" className="w-full">
           <Hero />
         </section>
         
-        <section id="projects">
+        <section id="projects" className="w-full">
           <Projects />
         </section>
         
-        <section id="about">
+        <section id="about" className="w-full">
           <About />
         </section>
         
-        <section id="contact">
+        <section id="contact" className="w-full">
           <Contact />
         </section>
       </main>

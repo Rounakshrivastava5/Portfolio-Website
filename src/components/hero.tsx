@@ -5,9 +5,9 @@ export default function Hero() {
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <AuroraBackground 
         className="absolute inset-0 w-full h-full"
-        colorStops={['#1e3a8a', '#3b82f6', '#1e40af']}
+        colorStops={['#DD1D30', '#CD1BDA', '#5227FF']}
         amplitude={0.8}
-        blend={0.6}
+        blend={1}
       />
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="space-y-8">
